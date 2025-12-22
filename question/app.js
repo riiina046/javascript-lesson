@@ -122,7 +122,7 @@ function foo() {
 // 関数の外から参照することができない。
 // そのため、console.log(x) を実行すると
 // x is not defined（変数 x が定義されていない）というエラーになる。
-// console.log(x);
+
 
 //応用編
 //Q1標準組み込みオブジェクト
@@ -142,7 +142,7 @@ function printName(firstName, formatter) {
 const addIntro = (name) => '私の名前は' + name + 'です。';
 
 printName('高沢', addIntro);
-;
+
 
 //Q3if
 let num = 3;
@@ -179,7 +179,7 @@ for (let i = 0; i < mixed.length; i++) {
   }
 }
 
-// review test
+
 
 
 
